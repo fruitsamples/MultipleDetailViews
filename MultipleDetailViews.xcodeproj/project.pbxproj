@@ -16,9 +16,9 @@
 		28AA66DC115C16800003B21C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AA66D7115C16800003B21C /* RootViewController.m */; };
 		28AA66DD115C16800003B21C /* SecondDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AA66D9115C16800003B21C /* SecondDetailViewController.m */; };
 		28AA66DF115C16850003B21C /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28AA66DE115C16850003B21C /* ReadMe.txt */; };
-		28AA66E2115C16920003B21C /* FirstDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AA66E0115C16920003B21C /* FirstDetailView.xib */; };
-		28AA66E3115C16920003B21C /* SecondDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AA66E1115C16920003B21C /* SecondDetailView.xib */; };
-		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		7E9552EE11766B410003D25C /* FirstDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E9552E811766B410003D25C /* FirstDetailView.xib */; };
+		7E9552EF11766B410003D25C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E9552EA11766B410003D25C /* MainWindow.xib */; };
+		7E9552F011766B410003D25C /* SecondDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E9552EC11766B410003D25C /* SecondDetailView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +35,11 @@
 		28AA66D8115C16800003B21C /* SecondDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDetailViewController.h; sourceTree = "<group>"; };
 		28AA66D9115C16800003B21C /* SecondDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDetailViewController.m; sourceTree = "<group>"; };
 		28AA66DE115C16850003B21C /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
-		28AA66E0115C16920003B21C /* FirstDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstDetailView.xib; sourceTree = "<group>"; };
-		28AA66E1115C16920003B21C /* SecondDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondDetailView.xib; sourceTree = "<group>"; };
-		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MultipleDetailViews_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleDetailViews_Prefix.pch; sourceTree = "<group>"; };
+		7E9552E911766B410003D25C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstDetailView.xib; sourceTree = "<group>"; };
+		7E9552EB11766B410003D25C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7E9552ED11766B410003D25C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondDetailView.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MultipleDetailViews-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MultipleDetailViews-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,9 +105,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
-				28AA66E0115C16920003B21C /* FirstDetailView.xib */,
-				28AA66E1115C16920003B21C /* SecondDetailView.xib */,
+				7E9552E811766B410003D25C /* FirstDetailView.xib */,
+				7E9552EA11766B410003D25C /* MainWindow.xib */,
+				7E9552EC11766B410003D25C /* SecondDetailView.xib */,
 				8D1107310486CEB800E47090 /* MultipleDetailViews-Info.plist */,
 			);
 			name = Resources;
@@ -151,6 +151,13 @@
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MultipleDetailViews" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -165,10 +172,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				28AA66DF115C16850003B21C /* ReadMe.txt in Resources */,
-				28AA66E2115C16920003B21C /* FirstDetailView.xib in Resources */,
-				28AA66E3115C16920003B21C /* SecondDetailView.xib in Resources */,
+				7E9552EE11766B410003D25C /* FirstDetailView.xib in Resources */,
+				7E9552EF11766B410003D25C /* MainWindow.xib in Resources */,
+				7E9552F011766B410003D25C /* SecondDetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +195,33 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E9552E811766B410003D25C /* FirstDetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E9552E911766B410003D25C /* en */,
+			);
+			name = FirstDetailView.xib;
+			sourceTree = SOURCE_ROOT;
+		};
+		7E9552EA11766B410003D25C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E9552EB11766B410003D25C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = SOURCE_ROOT;
+		};
+		7E9552EC11766B410003D25C /* SecondDetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E9552ED11766B410003D25C /* en */,
+			);
+			name = SecondDetailView.xib;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {

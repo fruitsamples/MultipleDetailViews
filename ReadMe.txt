@@ -38,6 +38,9 @@ Simple view controllers that adopt the SubstitutableDetailViewController protoco
 ===========================================================================
 CHANGES FROM PREVIOUS VERSIONS:
 
+Version 1.1
+- Added localization support; viewDidUnload now releases IBOutlets.
+
 Version 1.0
 - First version.
 

@@ -4,7 +4,7 @@
  Abstract: A simple view controller that adopts the SubstitutableDetailViewController protocol defined by RootViewController.
  It's responsible for adding and removing the popover button in response to rotation. This view controller uses a toolbar.
  
-  Version: 1.0
+  Version: 1.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following

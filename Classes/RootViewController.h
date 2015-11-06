@@ -3,7 +3,7 @@
      File: RootViewController.h
  Abstract: A table view controller that manages two rows. Selecting a row creates a new detail view controller that is added to the split view controller.
  
-  Version: 1.0
+  Version: 1.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
